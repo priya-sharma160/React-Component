@@ -17,3 +17,10 @@ console.log("-".repeat(50));
 let fruits = ["Apple", "Bannana", "Mango"];
 let fruitsCopy = [...fruits];
 console.log(fruitsCopy); //['Apple', 'Bannana', 'Mango']
+
+console.log("-".repeat(50));
+
+//3. Merge Arrays
+let vegies = ["Onion", "Potato"];
+let food = [...fruits, ...vegies];
+console.log(food); //['Apple', 'Bannana', 'Mango', 'Onion', 'Potato']
