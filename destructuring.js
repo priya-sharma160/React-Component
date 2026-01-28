@@ -43,4 +43,4 @@ function display({name, age, city}){
     console.log(`Name: ${name}, Age: ${age}, City: ${city}`);
 }
 
-display(person1); //Name: John, Age: 30, City: New York
+display(person1); //Name: John, Age: 30, City: New York 
